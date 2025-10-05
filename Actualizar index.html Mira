@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje para ti 🌙</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .link {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .mensaje {
+            display: none;
+            margin-top: 20px;
+            white-space: pre-wrap; /* Mantiene saltos de línea */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<h2>Hola 🌙</h2>
+<a class="link" onclick="mostrarMensaje()">Haz clic aquí para ver el mensaje</a>
+
+<div class="mensaje" id="mensaje">
+No quisiera incomodarte a estas alturas, pero sentí la necesidad de decir lo que llevo dentro. Sé que lo nuestro no se dio, y no busco culparme de todo, porque ambos cometimos errores. Sin embargo, reconozco que muchas veces hice que la relación se volviera más difícil, con más problemas y menos calma.
+La última vez que hablamos pudimos decirnos muchas cosas, pero siento que siempre nos faltó confianza para hablar con total sinceridad antes de darnos ese tiempo para seguir con nuestras vidas y mejorar en lo personal.
+No te escribo para pedirte volver, ni para remover el pasado. Solo quería recordarte lo que dijiste una vez: “tal vez más adelante podamos volver a encender el fuego que existió entre nosotros.” Y aunque no sé si me explico del todo bien, entiendo que tenías tus prioridades y tu estrés, cosas totalmente válidas. Tal vez pude haberte apoyado mejor, porque también sé lo que es lidiar con bloqueos emocionales.
+Aprendí que la intensidad en una relación puede cansar, especialmente cuando uno atraviesa momentos difíciles. Aunque la distancia y el poco tiempo que compartimos fueron limitantes, me sentía muy bien cada vez que salíamos o hablábamos.
+También sé que fallé y que hice promesas que no cumplí, pero de esos errores aprendí. Entendí que cuando algo no te gusta o te molesta, debo respetarlo, al igual que tú conmigo.
+El último mensaje que te envié fue para preguntarte si podíamos, al menos, mantener una amistad. No sé si no lo viste o si preferiste no responder, pero si aún querés, me gustaría conservar una amistad linda contigo.
+No tengo más que decirte, solo que te quiero mucho y que te cuides.
+Te voy a mandar un regalito, porque te lo debía desde tu cumpleaños.
+Y si al final no se dio lo nuestro por desconfianza, distancia o porque tal vez encontraste a alguien más, lo entiendo. No lo digo desde la tristeza, sino desde la aceptación: no puedo seguir buscando algo que ya no viene hacia mí.
+Gracias por todo lo que compartimos. 🌙
+</div>
+
+<script>
+function mostrarMensaje() {
+    const div = document.getElementById('mensaje');
+    div.style.display = div.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
+</body>
+</html>
+
